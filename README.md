@@ -21,7 +21,7 @@ export default () => (
 ```
 
 ## API
-### reactHashAvatar(uid, { size })
+### reactHashAvatar(uid, { size, radius })
 
 #### uid
 Type: `string`<br/>
@@ -29,7 +29,11 @@ Required
 
 #### size
 Type: `number`<br/>
-Required
+Default: `100`
+
+#### radius
+Type: `string`<br/>
+Default: `0`
 
 ## Demo
 
