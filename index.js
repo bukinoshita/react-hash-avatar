@@ -3,13 +3,13 @@
 const hash = require('string-hash')
 const color = require('tinycolor2')
 
-module.exports = (uid, { size } = {}) => {
+module.exports = (uid, { size = 100, radius = 0 } = {}) => {
   const n = hash(uid)
   const c1 = color({ h: n % 360, s: 0.95, l: 0.5 })
   const c1_ = c1.toHexString()
   const c2 = c1.triad()[1].toHexString()
 
-  return `<svg width="${size}px" height="${size}px" viewBox="0 0 80 80">
+  return `<svg width="${size}px" height="${size}px" style="borderRadius: ${radius}" viewBox="0 0 80 80">
     <defs>
       <linearGradient x1="0%" y1="0%" x2="100%" y2="100%" id="g">
         <stop stopColor="${c1_}" offset="0%"></stop>
