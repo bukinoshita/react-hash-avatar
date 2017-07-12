@@ -1,6 +1,6 @@
 {
   "name": "react-hash-avatar",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "React hash avatar algorithm",
   "main": "index.js",
   "repository": "git@github.com:bukinoshita/react-hash-avatar.git",
