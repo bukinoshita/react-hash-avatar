@@ -6,6 +6,14 @@
   "repository": "git@github.com:bukinoshita/react-hash-avatar.git",
   "author": "Bu Kinoshita <bukinoshita@gmail.com>",
   "license": "MIT",
+  "keywords": [
+    "react",
+    "hash",
+    "avatar",
+    "uid",
+    "svg",
+    "gradient"
+  ],
   "dependencies": {
     "string-hash": "^1.1.3",
     "tinycolor2": "^1.4.1"
